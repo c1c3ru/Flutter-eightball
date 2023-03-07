@@ -1,6 +1,6 @@
 # fluttereightball
 
-A new Flutter project.
+Teste de exercicio do curso do Udemy.
 
 ## Getting Started
 
