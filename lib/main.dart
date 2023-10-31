@@ -24,13 +24,8 @@ class _EightBallState extends State<EightBall> {
       ),
       body: Container(
         child: Center(
-          child: ElevatedButton(
-              onPressed: () {},
-              style: ElevatedButton.styleFrom(
-                shape: CircleBorder(),
-                padding: EdgeInsets.all(1),
-                backgroundColor: Colors.blue.shade800,
-              ),
+          child: GestureDetector(
+              onTap: () {},
               child: Image.asset('images/ball1.png',fit: BoxFit.cover,),),
         ),
       ),
